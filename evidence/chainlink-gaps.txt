@@ -1,0 +1,50 @@
+ChainLinkDataConsumer 0xd182263d06FDC463c96190005D6359CC3d3Bbc5e
+sampling the last 400 rounds of every feed it depends on
+
+STETH / USD  (0xCfE54B5cD566aB89272946F602D76Ea879CAb4a8)
+  configured tolerance        : 3600s
+  rounds sampled              : 400  spanning 14.6 days
+  largest publication gap     : 3696s
+  gaps exceeding tolerance    : 281 of 399
+  time spent past tolerance   : 6528s  (0.516% of the window)
+  worst offenders             : 3696, 3696, 3672, 3672, 3672, 3672
+
+WBTC / BTC  (0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23)
+  configured tolerance        : 86400s
+  rounds sampled              : 400  spanning 396.0 days
+  largest publication gap     : 86484s
+  gaps exceeding tolerance    : 383 of 399
+  time spent past tolerance   : 8748s  (0.026% of the window)
+  worst offenders             : 86484, 86472, 86448, 86448, 86448, 86448
+
+BTC / USD  (0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c)
+  configured tolerance        : 3600s
+  rounds sampled              : 400  spanning 10.9 days
+  largest publication gap     : 3696s
+  gaps exceeding tolerance    : 165 of 399
+  time spent past tolerance   : 4380s  (0.464% of the window)
+  worst offenders             : 3696, 3696, 3684, 3684, 3684, 3672
+
+ETH / USD  (0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419)
+  configured tolerance        : 3600s
+  rounds sampled              : 400  spanning 7.9 days
+  largest publication gap     : 3684s
+  gaps exceeding tolerance    : 87 of 399
+  time spent past tolerance   : 2232s  (0.327% of the window)
+  worst offenders             : 3684, 3684, 3672, 3660, 3648, 3636
+
+USDC / USD  (0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6)
+  configured tolerance        : 86400s
+  rounds sampled              : 67  spanning 63.1 days
+  largest publication gap     : 82848s
+  gaps exceeding tolerance    : 0 of 66
+  time spent past tolerance   : 0s  (0.000% of the window)
+
+USDT / USD  (0x3E7d1eAB13ad0104d2750B8863b489D65364e32D)
+  configured tolerance        : 86400s
+  rounds sampled              : 65  spanning 63.5 days
+  largest publication gap     : 86472s
+  gaps exceeding tolerance    : 61 of 64
+  time spent past tolerance   : 1548s  (0.028% of the window)
+  worst offenders             : 86472, 86448, 86436, 86436, 86436, 86436
+
